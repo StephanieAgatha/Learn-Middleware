@@ -14,3 +14,17 @@ host=localhost user=gorm password=gorm dbname=gorm port=9920 sslmode=disable Tim
 ```bash
   go run main.go
 ```
+
+#### API 
+
+```bash
+http:localhost:3000/login
+http:localhost:3000/register
+http:localhost:3000/change-password
+```
+```bash
+  {
+	"username": "",
+	"password": ""
+}
+```
